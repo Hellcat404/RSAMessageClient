@@ -17,5 +17,9 @@ namespace MessageClient {
         public void WriteMessage(string message) { 
             Console.WriteLine(message);
         }
+
+        public void Disconnect() {
+            conn.Disconnect();
+        }
     }
 }
